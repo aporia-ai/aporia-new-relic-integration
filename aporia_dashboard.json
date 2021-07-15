@@ -96,7 +96,7 @@
             "height": 3,
             "width": 6
           },
-          "title": "Numeric Prediction Average Value",
+          "title": "Numeric Predictions Average Values",
           "rawConfiguration": {
             "facet": {
               "showOtherSeries": false
@@ -126,7 +126,7 @@
             "height": 3,
             "width": 6
           },
-          "title": "Numeric Predictions Histogram",
+          "title": "Numeric Predictions Histograms",
           "rawConfiguration": {
             "nrqlQueries": [
               {
