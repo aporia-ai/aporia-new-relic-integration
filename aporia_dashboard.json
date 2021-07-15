@@ -131,7 +131,7 @@
             "nrqlQueries": [
               {
                 "accountId": <ACCOUNT-ID>,
-                "query": "SELECT histogram(value) FROM aporia_numeric_prediction SINCE 1 week ago FACET model_name, model_version_name "
+                "query": "SELECT histogram(value) FROM aporia_numeric_prediction SINCE 1 week ago FACET model_name, model_version_name, prediction_name "
               }
             ]
           },
