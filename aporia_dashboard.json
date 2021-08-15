@@ -17,7 +17,7 @@
             "height": 3,
             "width": 6
           },
-          "title": "Models Names",
+          "title": "Most Active Models",
           "rawConfiguration": {
             "dataFormatters": [],
             "facet": {
@@ -42,7 +42,7 @@
             "height": 3,
             "width": 6
           },
-          "title": "Models Versions Names",
+          "title": "Most Active Model Versions",
           "rawConfiguration": {
             "facet": {
               "showOtherSeries": false
@@ -66,7 +66,7 @@
             "height": 3,
             "width": 6
           },
-          "title": "Predictions Count",
+          "title": "Model Inferences",
           "rawConfiguration": {
             "facet": {
               "showOtherSeries": false
@@ -96,7 +96,7 @@
             "height": 3,
             "width": 6
           },
-          "title": "Numeric Predictions Average Values",
+          "title": "Average Numeric Inferences",
           "rawConfiguration": {
             "facet": {
               "showOtherSeries": false
@@ -126,7 +126,7 @@
             "height": 3,
             "width": 6
           },
-          "title": "Numeric Predictions Histograms",
+          "title": "Numeric Inferences Heatmaps",
           "rawConfiguration": {
             "nrqlQueries": [
               {
@@ -147,7 +147,7 @@
             "height": 3,
             "width": 6
           },
-          "title": "Categorical Predictions Values",
+          "title": "Categorical Inferences",
           "rawConfiguration": {
             "facet": {
               "showOtherSeries": false
