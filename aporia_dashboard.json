@@ -25,7 +25,7 @@
             },
             "nrqlQueries": [
               {
-                "accountId": <ACCOUNT-ID>,
+                "accountId": 0,
                 "query": "SELECT count(model_name) FROM aporia_numeric_prediction, aporia_categorical_prediction SINCE 1 week ago FACET model_name"
               }
             ]
@@ -49,7 +49,7 @@
             },
             "nrqlQueries": [
               {
-                "accountId": <ACCOUNT-ID>,
+                "accountId": 0,
                 "query": "SELECT count(model_version_name) FROM aporia_numeric_prediction, aporia_categorical_prediction SINCE 1 week ago FACET model_name, model_version_name"
               }
             ]
@@ -76,7 +76,7 @@
             },
             "nrqlQueries": [
               {
-                "accountId": <ACCOUNT-ID>,
+                "accountId": 0,
                 "query": "SELECT uniqueCount(`prediction_id`) FROM aporia_numeric_prediction, aporia_categorical_prediction FACET model_name, model_version_name SINCE 1 week ago TIMESERIES AUTO  "
               }
             ],
@@ -106,7 +106,7 @@
             },
             "nrqlQueries": [
               {
-                "accountId": <ACCOUNT-ID>,
+                "accountId": 0,
                 "query": "SELECT average(value) FROM aporia_numeric_prediction SINCE 1 week ago TIMESERIES AUTO FACET model_name, model_version_name, prediction_name"
               }
             ],
@@ -130,7 +130,7 @@
           "rawConfiguration": {
             "nrqlQueries": [
               {
-                "accountId": <ACCOUNT-ID>,
+                "accountId": 0,
                 "query": "SELECT histogram(value) FROM aporia_numeric_prediction SINCE 1 week ago FACET model_name, model_version_name, prediction_name "
               }
             ]
@@ -154,7 +154,7 @@
             },
             "nrqlQueries": [
               {
-                "accountId": <ACCOUNT-ID>,
+                "accountId": 0,
                 "query": "SELECT count(value) FROM aporia_categorical_prediction SINCE 1 week AGO FACET model_name, model_version_name, prediction_name, value "
               }
             ]
