@@ -5,17 +5,33 @@
   "pages": [
     {
       "name": "Aporia Dashboard",
-      "description": "Aporia predictions monitoring dashboard",
+      "description": "Aporia inference monitoring dashboard",
       "widgets": [
         {
           "visualization": {
-            "id": "viz.bar"
+            "id": "viz.markdown"
           },
           "layout": {
             "column": 1,
             "row": 1,
             "height": 3,
-            "width": 6
+            "width": 2
+          },
+          "title": "",
+          "rawConfiguration": {
+            "text": "\\\n\\\n\\\n\\\n\\\n&nbsp;&nbsp;&nbsp;Data provided by integration with \\\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Aporia](https://aporia-nr-public-resources.s3.amazonaws.com/aporia_logo_32.svg)"
+          },
+          "linkedEntityGuids": null
+        },
+        {
+          "visualization": {
+            "id": "viz.bar"
+          },
+          "layout": {
+            "column": 3,
+            "row": 1,
+            "height": 3,
+            "width": 4
           },
           "title": "Most Active Models",
           "rawConfiguration": {
